@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "BottleLevel",
-    "slug": "BottleLevel",
+    "slug": "bottle-level",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -31,6 +31,15 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "fae809b6-b465-4b39-b4be-c81286957118"
+      }
+    },
+    "owner": "juantoledo23"
   }
 }
